@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="66dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/city"
+        android:textAppearance="?android:attr/textAppearanceLarge" />/ android:textColor="@color/btnSignsColor"/>
+
+    <TextView
+        android:id="@+id/textViewTheCIty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tel_aviv_yafo" />
+
+    <TextView
+        android:id="@+id/textViewChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/please_choose" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnSigns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.41"
+            android:text="Signs"
+            android:textColor="@color/btnSignsColor"
+            android:backgroundTint="#fb0a0a" />
+
+        <Button
+            android:id="@+id/btnQRScan"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.49"
+            android:text="QR scan"
+            android:textColor="@color/btnQRScanColor"
+            android:backgroundTint="#31e216" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAlignBottom="false" />
+</LinearLayout>

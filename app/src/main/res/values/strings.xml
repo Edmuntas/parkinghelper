@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ParkingHelper</string>
+    <string name="please_choose">Please choose !</string>
+    <string name="tel_aviv_yafo">Tel Aviv Yafo</string>
+    <string name="city">City</string>
+    <string name="btnQRscan">you choose QRScan</string>
+    <string name="btnSings">you choose Sings</string>
+
+</resources>
