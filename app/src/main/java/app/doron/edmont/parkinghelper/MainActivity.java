@@ -35,7 +35,5 @@ public class MainActivity extends AppCompatActivity {
         textViewChoose = (TextView) findViewById(R.id.textViewChoose);
         btnQRScan.setOnClickListener(onClickListener);
         btnSigns.setOnClickListener(onClickListener);
-
-
     }
 }
